@@ -1,0 +1,8 @@
+services:
+    entityValidation.entity_validation_listener:
+        class: MrM\MrMEntityValidationBundle\Extensions\EntityValidationListener        
+        calls:
+          - [ setContainer,  ["@service_container"] ]
+        tags:
+            - { name: doctrine.event_listener, event: prePersist }
+            - { name: doctrine.event_listener, event: preUpdate }
