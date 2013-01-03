@@ -1,6 +1,6 @@
 <?php
 
-namespace MrM\MrMEntityValidationBundle;
+namespace MrM\EntityValidationBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
