@@ -1,11 +1,11 @@
 <?php
 
-namespace MrM\MrMEntityValidationBundle\Extensions;
+namespace MrM\EntityValidationBundle\Extensions;
 
 use Doctrine\ORM\Event\LifecycleEventArgs;
 use Symfony\Component\DependencyInjection\ContainerAware;
 
-use MrM\MrMEntityValidationBundle\Exception\ValidationException;
+use MrM\EntityValidationBundle\Exception\ValidationException;
 
 class EntityValidationListener extends ContainerAware {
     

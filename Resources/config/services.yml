@@ -1,6 +1,6 @@
 services:
-    entityValidation.entity_validation_listener:
-        class: MrM\MrMEntityValidationBundle\Extensions\EntityValidationListener        
+    mrm_entity_validation.entity_validation_listener:
+        class: MrM\EntityValidationBundle\Extensions\EntityValidationListener        
         calls:
           - [ setContainer,  ["@service_container"] ]
         tags:

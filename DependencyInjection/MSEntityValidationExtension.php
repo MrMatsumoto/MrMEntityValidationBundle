@@ -1,6 +1,6 @@
 <?php
 
-namespace MrM\MrMEntityValidationBundle\DependencyInjection;
+namespace MrM\EntityValidationBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\Config\FileLocator;
