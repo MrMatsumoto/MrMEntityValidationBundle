@@ -1,5 +1,5 @@
 {
-    "name": "mrm/mrm-entity-validation-bundle",
+    "name": "mrmatsumoto/mrmentityvalidationbundle",
     "description": "Adds Symfony validations to Doctrine lifecycle.",
     "keywords": ["validation","doctrine"],
     "type": "symfony-bundle",
