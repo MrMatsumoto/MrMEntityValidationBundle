@@ -1,0 +1,19 @@
+{
+    "name": "mrm/mrm-entity-validation-bundle",
+    "description": "Adds Symfony validations to Doctrine lifecycle.",
+    "keywords": ["validation","doctrine"],
+    "type": "symfony-bundle",
+    "authors": [
+        {
+            "name": "Michael Schidlowski",
+            "email": "michael.schidlowski@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/framework-bundle": "2.*"
+    },
+    "autoload": {
+        "psr-0": { "MrM\\EntityValidationBundle": "" }
+    },
+    "target-dir": "MrM/EntityValidationBundle"
+}
