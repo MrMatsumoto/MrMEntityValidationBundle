@@ -1,6 +1,6 @@
 <?php
 
-namespace MrM\MrMEntityValidationBundle\Exception;
+namespace MrM\EntityValidationBundle\Exception;
 
 use Symfony\Component\Serializer\Exception\RuntimeException;
 
