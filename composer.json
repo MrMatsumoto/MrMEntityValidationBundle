@@ -15,5 +15,10 @@
     "autoload": {
         "psr-0": { "MrM\\EntityValidationBundle": "" }
     },
-    "target-dir": "MrM/EntityValidationBundle"
+    "target-dir": "MrM/EntityValidationBundle",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        }
+    }    
 }
